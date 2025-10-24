@@ -1,7 +1,7 @@
-# Radio Furniture
-Adds a buyable radio to Lethal Company that can play thousands of real radio stations.
+# Radio Furniture FIXED
+Adds a buyable radio to Lethal Company that can play thousands of random real radio stations!
 
-The radio is found in the store and purchased for 100 credits.
+The radio is found in the store and purchased for 80 credits.
 
 **⚠️ WARNING:** This mod uses a [live, community-driven database of radio stations](https://www.radio-browser.info/). I am not responsible for the entries, nor the content found on the radio stations themselves. 
 
