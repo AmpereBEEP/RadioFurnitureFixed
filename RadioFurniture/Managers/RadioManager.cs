@@ -27,12 +27,29 @@ namespace RadioFurniture.Managers
         private static async UniTask GetRadioStations()
         {
             Debug.Log("Searching Radio API for stations!");
-            // Initialization
-            var radioBrowser = new RadioBrowserClient();
-            List<StationInfo> topByVotes = await radioBrowser.Stations.GetByVotesAsync(10000);
-            _stations = topByVotes.Where(x => x != null && x.Codec != null && x.Codec == "MP3" && x.UrlResolved != null && x.UrlResolved.Scheme == "https").ToList();
-            Debug.Log("Finished searching radio API for stations.");
-            Debug.Log($"Found {_stations.Count}");
+            try // <-- CRASH PREVENTION: Keep this try-catch block
+            {
+                // Initialization
+                var radioBrowser = new RadioBrowserClient();
+
+                // Original API call
+                List<StationInfo> topByVotes = await radioBrowser.Stations.GetByVotesAsync(30000);
+
+                // Original strict filtering
+                _stations = topByVotes.Where(x => x != null
+                    && x.Codec != null
+                    && x.Codec == "MP3"
+                    && x.UrlResolved != null
+                    && x.UrlResolved.Scheme == "https")
+                    .ToList();
+
+                Debug.Log("Finished searching radio API for stations.");
+                Debug.Log($"Found {_stations.Count}");
+            }
+            catch (Exception ex) // <-- LOGGING: Keep the error log
+            {
+                Debug.LogError($"[RadioManager] FAILED to fetch stations from API. Error: {ex.Message}");
+            }
         }
 
         public static StationInfo? GetRandomRadioStation()
