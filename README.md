@@ -19,7 +19,7 @@ The MP3 audio streaming implementation is a modified version of [MSCModLoader]()
 
 Copyright (C) 2023 piotrulos
 
-The RadioBrowser API is [a fork](https://github.com/legoandmars/RadioBrowser.NET) of [~youkai's RadioBrowser.NET](https://git.sr.ht/~youkai/RadioBrowser.NET), which is licensed under GPL-3.
+The RadioBrowser API is [a fork](https://github.com/AmpereBEEP/RadioBrowser.NET_Fixed) of [~youkai's RadioBrowser.NET](https://git.sr.ht/~youkai/RadioBrowser.NET), which is licensed under GPL-3.
 
 Copyright (C) 2020 bt
 
@@ -31,3 +31,5 @@ To make radio station audio streaming possible, this repo uses [NAudio](https://
 To add furniture to the game, this repo uses [LethalLib](https://github.com/EvaisaDev/LethalLib), which is licensed under MIT.
 
 To make ClientRPC/ServerRPCs work properly ingame, this repo uses [UnityNetcodeWeaver](https://github.com/EvaisaDev/UnityNetcodeWeaver), which is licensed under MIT.
+
+Original was made by https://github.com/legoandmars
