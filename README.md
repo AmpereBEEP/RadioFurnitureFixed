@@ -10,11 +10,6 @@ The radio station's name and UUID are output into the BepInEx console when you c
 
 **⚠️ WARNING:** This mod uses a [live, community-driven database of radio stations](https://www.radio-browser.info/). I am not responsible for the entries, nor the content found on the radio stations themselves. 
 
-## Update Changelog
-
-### V1.0.1 
-Updated the readme to fix the incorrectly listed purchase price in the shop and improve the wording of the description to better reflect what the mod does.
-
 ## Credits/Licensing
 
 This mod uses the [RadioBrowser API](https://www.radio-browser.info/), an amazing community-driven resource for finding internet radio stations.
