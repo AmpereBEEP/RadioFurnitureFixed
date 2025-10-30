@@ -4,11 +4,14 @@ Adds a buyable radio to Lethal Company that can play thousands of random real ra
 
 The radio is found in the store and purchased for 80 credits.
 
+### How do I use it?
+
 You can turn the radio on using the right dial and change the station to a random new one using the left dial, with a volume switch on the left side to adjust to your liking!
 
 The radio station's name and UUID are output into the BepInEx console when you change stations, so you can figure out what station you were listening to!
 
-**⚠️ WARNING:** This mod uses a [live, community-driven database of radio stations](https://www.radio-browser.info/). I am not responsible for the entries, nor the content found on the radio stations themselves. 
+### **⚠️ WARNING ⚠️:** 
+This mod uses a [live, community-driven database of radio stations](https://www.radio-browser.info/). I am not responsible for the entries, nor the content found on the radio stations themselves. 
 
 ## Credits/Licensing
 
