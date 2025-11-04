@@ -2,7 +2,7 @@
 
 Adds a buyable radio to Lethal Company that can play thousands of random real radio stations!
 
-The radio is found in the store and purchased for 80 credits.
+The radio is found in the store and purchased for 60 credits.
 
 ### How do I use it?
 
